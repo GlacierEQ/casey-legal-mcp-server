@@ -1,0 +1,82 @@
+{
+  "name": "casey-legal-mcp-server",
+  "version": "1.0.0",
+  "description": "Legal MCP Server for Case 1FDV-23-0001009 - Fighting for Kekoa's future",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "casey-legal-mcp-server": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Testing Casey Legal MCP Server...\" && node src/index.js --test",
+    "build": "echo \"Build complete - ready for Smithery deployment\"",
+    "smithery:publish": "smithery publish ."
+  },
+  "keywords": [
+    "mcp",
+    "legal",
+    "case-1fdv-23-0001009",
+    "judicial-bias",
+    "child-welfare",
+    "civil-rights",
+    "smithery",
+    "ai-assistant"
+  ],
+  "author": "Casey - Fighting for Kekoa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GlacierEQ/casey-legal-mcp-server.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "mcp": {
+    "name": "casey-legal-mcp-server",
+    "description": "Legal MCP Server specialized for Case 1FDV-23-0001009 - Judicial bias detection, evidence tracking, child welfare monitoring",
+    "version": "1.0.0",
+    "author": "Casey",
+    "tags": ["legal", "civil-rights", "child-welfare", "judicial-bias"],
+    "category": "legal-tech",
+    "homepage": "https://github.com/GlacierEQ/casey-legal-mcp-server",
+    "pricing": "free",
+    "features": [
+      "Legal case analysis with bias detection",
+      "Evidence tracking and chain of custody",
+      "Court deadline monitoring with alerts",
+      "Judicial bias documentation",
+      "Child welfare assessment tools",
+      "Federal civil rights case specialization"
+    ],
+    "tools": [
+      {
+        "name": "analyze_legal_case",
+        "description": "Comprehensive analysis of legal cases with focus on bias detection and civil rights violations"
+      },
+      {
+        "name": "track_evidence",
+        "description": "Professional evidence tracking with chain of custody management"
+      },
+      {
+        "name": "monitor_deadlines",
+        "description": "Court deadline monitoring with automatic priority-based alerts"
+      },
+      {
+        "name": "document_judicial_bias",
+        "description": "Systematic documentation of judicial bias incidents for legal proceedings"
+      },
+      {
+        "name": "child_welfare_assessment",
+        "description": "Child welfare monitoring and assessment tools for family law cases"
+      }
+    ]
+  }
+}
